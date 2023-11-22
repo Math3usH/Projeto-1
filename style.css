@@ -1,9 +1,10 @@
+/* Definindo altura total e removendo margens do body e HTML */
 html,
 body {
   height: 100%;
   margin: 0;
 }
-
+/* Estilos da barra lateral */
 .sidebar {
   width: 100%;
   height: 0;
@@ -16,23 +17,23 @@ body {
   transition: height 0.5s;
   z-index: 3;
 }
-
+/* Abre a barra lateral */
 .sidebar-aberta {
   height: 100%;
 }
-
+/* Ajustes do conteúdo principal */
 .conteudo {
   width: auto;
   margin-left: 0;
   height: 170px;
 }
-
+/* Estilos do botão da barra lateral */
 .botao-sidebar-menu {
   position: fixed;
   top: 10px;
   left: 10px;
 }
-
+/* Ícone do menu */
 .menu-icon {
   display: inline-block;
   cursor: pointer;
@@ -41,7 +42,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 10px;
 }
-
+/* Estilos para a lista de tópicos na barra lateral */
 .topicos {
   list-style-type: none;
 }
@@ -62,16 +63,16 @@ body {
   transition: 0.25s;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* Estilos para os tópicos e caixas */
 .topicos {
   margin-bottom: 58px;
 }
-
+/* Efeitos de hover para os links */
 .alista:hover {
   font-size: 35px;
   text-decoration: underline;
 }
-
+ 
 #titulo1 {
   text-decoration: none;
   text-align: center;
@@ -85,7 +86,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border: 4px;
 }
-
+/* Estilos para a logo */
 .logo {
   display: flex;
   justify-content: center;
@@ -100,7 +101,7 @@ body {
 
 
 
-
+/* Estilos para os contêineres de tópicos */
 .topicos-container {
   display: flex;
   flex-direction: column;
@@ -121,7 +122,7 @@ body {
   justify-content: center;
   margin-bottom: 20px;
 }
-
+/* Efeitos de hover para as caixas de tópicos */
 .box {
   position: relative;
   width: 300px;
@@ -151,7 +152,7 @@ body {
   text-decoration: none;
   z-index: 2;
 }
-
+/* Estilos para as imagens após o hover nas caixas de tópicos */
 #boxpitagoras::after {
   content: "";
   position: absolute;
@@ -168,7 +169,7 @@ body {
   z-index: 1;
   transition: 250ms ease;
 }
-
+/* Efeitos de hover para as imagens após o hover nas caixas de tópicos */
 #boxpitagoras:hover::after {
   filter: none;
   transition: 250ms ease;
@@ -331,7 +332,7 @@ body {
 .conteudo {
   margin-top: 20px;
 }
-
+/* Estilos para o rodapé */
 footer {
   background-color: #f2f2f2;
   padding: 20px 0;
@@ -347,7 +348,7 @@ footer {
   color: #888;
   font-size: 14px;
 }
-
+/* Estilos para um retângulo específico */
 .retangulo {
   width: 700px;
   height: 950px;
@@ -357,14 +358,14 @@ footer {
   box-sizing: border-box;
   font-size: 18px;
 }
-
+/* Estilos para um parágrafo específico do tópico Pitágoras */
 .paragrafopitagoras {
   margin-top: 4%;
   margin-left: 3%;
   margin-bottom: 2%;
   margin-right: 2%;
 }
-
+/* Estilos para um retângulo específico do tópico IMC */
 #retangulo-imc {
   width: 700px;
   height: 1000px;

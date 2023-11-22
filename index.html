@@ -5,12 +5,14 @@
   <meta charset="utf-8">
   <title>Matemática Descomplicada</title>
   <link rel="stylesheet" href="style.css">
- <link rel="icon" type="image/x-icon" href="iconindex.ico">
+  <link rel="icon" type="image/x-icon" href="iconindex.ico">
 </head>
 
 <body>
+  <!-- Barra lateral de navegação -->
   <div class="sidebar" id="sidebar">
-    <a href="#" class="botao-sidebar-menu" id="botao-sidebar-menu" onclick="toggleSidebar()"><span class="menu-icon">&#9776;</span></a>
+    <a href="#" class="botao-sidebar-menu" id="botao-sidebar-menu" onclick="toggleSidebar()"><span
+        class="menu-icon">&#9776;</span></a>
     <nav>
       <ul class="lista1">
         <li class="topicos"><a class="alista" href="index.html">Home</a></li>
@@ -20,6 +22,7 @@
 
     </nav>
   </div>
+  <!-- Cabeçalho -->
   <header>
     <div class="logo">
       <img id="logoindex" src="imagenstopicos/logo.png" alt>
@@ -28,7 +31,7 @@
       <h1 id="titulo1">Matemática Descomplicada</h1>
     </div>
   </header>
-
+  <!-- Seção de tópicos -->
   <section class="topicos-container">
     <ul class="lista-topicos">
       <li class="box" id="boxpitagoras">
@@ -52,10 +55,10 @@
       <li class="box" id="boxareapoligono">
         <a href="topico7.html">Área de polígonos</a>
       </li>
+      <!-- Adicione mais itens de tópicos conforme necessário -->
     </ul>
-
   </section>
-  <!---mudar para lista-->
+  <!-- Script para controlar a barra lateral -->
   <script>
     function toggleSidebar() {
       const sidebar = document.getElementById("sidebar");
@@ -73,7 +76,7 @@
 
     }
   </script>
-
+  <!-- Rodapé -->
   <footer class="container">
     <p class="rodape">&copy; 2023 Matemática Descomplicada. Todos os direitos
       reservados.</p>
